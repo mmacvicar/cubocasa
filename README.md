@@ -79,6 +79,7 @@ GET /device/
 ### Open or Close device
 
 POST /device/:device_id/
+
 Content-Type: application/json
 
 **Request Body**
