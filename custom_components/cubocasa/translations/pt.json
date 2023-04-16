@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Cubo Casa",
+        "description": "Olhe aqui para ajuda com a configuração: https://github.com/mmacvicar/cubo-casa",
+        "data": {
+          "url": "URL da API do Cubo Casa",
+          "access_token": "Token de autenticação, obter de um device autenticado com Cubo Casa (header Bearer)",
+          "scan_interval": "Periodo mínimo para atualizar os dados em segundos"
+        }
+      }
+    },
+    "error": {
+      "auth": "Não foi possível validar as credenciais"
+    },
+    "abort": {
+      "single_instance_allowed": "So é possível rodar uma instancia da integração"
+    }
+  },
+  "options": {
+    "step": {
+      "user": {
+        "data": {
+          "lock": "Cubos habilitados",
+          "url": "URL da API do Cubo Casa",
+          "access_token": "Token de autenticação, obter de um device autenticado com Cubo Casa (header Bearer)",
+          "scan_interval": "Periodo mínimo para atualizar os dados em segundos"        }
+      }
+    }
+  }
+}

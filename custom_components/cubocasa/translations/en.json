@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Cubo Casa",
+        "description": "If you need help with the configuration have a look here: https://github.com/mmacvicar/cubo-casa",
+        "data": {
+          "url": "URL of Cubo Casa API",
+          "access_token": "Acces token of a device authenticated with Cubo Casa",
+          "scan_interval": "Poll interval in seconds"
+        }
+      }
+    },
+    "error": {
+      "auth": "Could not validate access token."
+    },
+    "abort": {
+      "single_instance_allowed": "Only a single instance is allowed."
+    }
+  },
+  "options": {
+    "step": {
+      "user": {
+        "data": {
+          "lock": "Locks enabled",
+          "url": "Username",
+          "access_token": "Acces token of a device authenticated with Cubo Casa",
+          "scan_interval": "Poll interval in seconds"
+        }
+      }
+    }
+  }
+}
