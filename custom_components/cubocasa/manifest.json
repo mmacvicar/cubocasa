@@ -1,6 +1,7 @@
 {
   "domain": "cubocasa",
   "name": "Cubo Casa",
+  "version": "1.0.0",
   "documentation": "https://github.com/mmacvicar/cubo-casa",
   "issue_tracker": "https://github.com/mmacvicar/cubo-casa/issues",
   "dependencies": [],
